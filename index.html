@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aayushmaan's Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4231346c72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="top-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="">Aayushmaan Jain</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Introduction">Introduction</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#StandardDeviation">Standard Deviation</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Demerits">Demerits</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Code">Python Code</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Introduction to Standard Deviation</h1>
+
+    </div>
+    <div class="middle-container">
+        <div class="skills" id="Introduction">
+            <h2>Introduction to Standard Devaition</h2>
+            <div class="skill-row">
+                <p class="web-description">
+                    Standard deviation is the measure of dispersion of a set of data from its mean. It measures the absolute variability of a distribution; the higher the dispersion or variability, the greater is the standard deviation and greater will be the magnitude of the deviation of the value from their mean.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="skill-row" id = "StandardDeviation">
+        <h2> Finding Standard Devation of different types of data series</h2>
+        <p>
+            <h3>Individual Series:</h3>
+            <p class="web-description"> 
+                Formula for standard deviation of individual series:<br>
+                <img src="https://i.ibb.co/k04XwMF/stdev-individual.jpg" alt="stdev-individual" border="0"><br>
+                Where:<br>
+                <ol>
+                    <li>x&#772 = Mean of data series</li>
+                    <li>x = The corresponding observation</li>
+                </ol>
+                </p>
+            <h3>Discrete Series</h3>
+            <p class="web-description">
+                Formula for standard deviation of discrete series:<br>
+                <img src="https://i.ibb.co/mh2bJBm/stdev-discrete.jpg" alt="stdev-discrete" border="0"><br>
+                Where:<br>
+                <ol>
+                    <li>x&#772 = Mean of the discrete series</li>
+                    <li>f = Frequency of corresponding data item</li>
+                </ol>
+                x&#772 for discrete series is given by the formula:<br>
+                <img src="https://i.ibb.co/QJhTxHF/mean-discrete.jpg" alt="mean-discrete" border="0">
+            </p>
+            <h3>Continous Series</h3>
+            <p class="web-description">
+                The Standard Deviation for continuous series is given by the formula:<br>
+                <img src="https://i.ibb.co/m8nv2bv/stdev-cont.jpg" alt="stdev-cont" border="0"><br>
+                Where:<br>
+                <ol>
+                    <li>x&#772 = Mean of the continuous data series</li>
+                    <li>f = frequency of the corresponding class interval</li>
+                </ol>
+                x&#772 is given by the formula: 
+                <img src="https://i.ibb.co/bdPwHYJ/mean-cont.jpg" alt="mean-cont" border="0"><br>
+                Where:<br>
+                <ul> 
+                    <li>x<sub>mid</sub> = midpoint of the class interval </li>
+                    <li>f = frequency of the corresponding class interval</li>
+                </ul> 
+             </p>
+    </div>
+    <hr>
+    <div class="skill-row" id = "Demerits">
+        <h2>Demerits of Standard Deviation</h2>
+        <p class="web-description">
+            Here are the demerits of using mode as a descriptive statistic for calculations<br>
+            <ol>
+                <li>Its calculation is difficult as it involves many mathematical models and processes.</li>
+                <li>It is affected very much by the extreme values of a series in as much as the squares of deviations of big items proportionately bigger than the squares of the smaller items.</li>
+                <li>It cannot be used for comparing the dispersion of two, or more series given in different units</li>
+            </ol>
+        </p>
+    </div>
+    <div class="skill-row" id = "Code">
+        <h2>Python code for finding Standard Deviation</h2>
+        <script src="https://gist.github.com/aayush1036/d7df2885ed469ca55b048f6f45cf57eb.js"></script>
+    </div>
+    </div>
+
+    <hr>
+    <div class="contact-me" id="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Contact Me</h3>
+        <p class="contact">You can contact me via the button given below. Feel free to contact me. Suggestions and corrections are welcomed warmly by me.</p>
+        <a class="btn btn-dark" href="mailto:aayushmaan1306@gmail.com">CONTACT ME</a>
+    </div>
+    <div class="bottom-container">
+        <div class="social-media">
+            <a class="footer-link" href="https://instagram.com/aayush_13_06?igshid=1uavueb7n7khn"><i class="fab fa-instagram"></i>
+                My Instagram profile
+            </a>
+            <a class="footer-link" href="https://github.com/aayush1036"><i class="fab fa-github"></i>
+                GitHub Profile
+            </a>
+            <br>
+            <i class="fas fa-map-pin copyright"></i>
+            <p class="copyright">Mumbai, MH</p>
+        </div>
+
+
+
+        <p class="copyright">© Aayushmaan Jain.</p>
+    </div>
+</body>
+
+</html>
+
